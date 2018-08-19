@@ -58,7 +58,7 @@ for match in matches:
     if match['Played']:
         home_team_number, away_team_number = teams[match['HomeTeam']]['N'], teams[match['AwayTeam']]['N']
         s1, s2 = match['FTHG'], match['FTAG']
-        print("{} / {} -> {}/{}".format(match['HomeTeam'], match['AwayTeam'], s1, s2))
+        print("Jour {} : {} / {} -> {}/{}".format(match['Date'], match['HomeTeam'], match['AwayTeam'], s1, s2))
         model.print(set([home_team_number, away_team_number]))
         model.account_for2(home_team_number, away_team_number, s1, s2)
         model.print(set([home_team_number, away_team_number]))
