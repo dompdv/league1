@@ -1,7 +1,7 @@
 import csv
 
 
-file = 'historique_paris_sportifs.csv'
+file = 'F20102011.csv'
 countries = set()
 leagues = set()
 teams = set()

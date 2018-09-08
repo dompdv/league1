@@ -371,7 +371,7 @@ def simulate_bet_over(from_year_load, to_year_load, from_year, to_year, proba_ta
 
 # ===================================================================================
 if __name__ == "__main__":
-    play_scores, bet_details, final_model = simulate_bet_over(2011, 2018, 2015, 2018, proba_table_file='data_built_m_20180811.csv', printing=False)
+    play_scores, bet_details, final_model = simulate_bet_over(2011, 2018, 2015, 2018, proba_table_file='data_built_m_20180813.csv', printing=False)
 
     #final_model.print()
     #print()
